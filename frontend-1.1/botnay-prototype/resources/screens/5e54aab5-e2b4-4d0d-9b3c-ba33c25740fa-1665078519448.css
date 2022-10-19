@@ -1,0 +1,84 @@
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa > #backgroundBox {
+  position: absolute;
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa > #alignmentBox {
+  position: relative;
+  max-width: 414.0px;
+  max-height: 736.0px;
+  width: 100%;
+  height: 100%;
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Image_1 {
+  position: absolute;
+  width: 414.0px;
+  height: 911.9040000000001px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_1 {
+  position: absolute;
+  width: 242.0px;
+  height: 66.99999999999999px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_2 {
+  position: absolute;
+  width: 67.0px;
+  height: 61.904000000000515px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_3 {
+  position: absolute;
+  width: 93.9999999999997px;
+  height: 68.90400000000034px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_4 {
+  position: absolute;
+  width: 68.0px;
+  height: 63.322200466497044px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_5 {
+  position: absolute;
+  width: 66.0px;
+  height: 52.0px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa #s-Hotspot_6 {
+  position: absolute;
+  width: 46.49999999999968px;
+  height: 50.0px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-5e54aab5-e2b4-4d0d-9b3c-ba33c25740fa > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}

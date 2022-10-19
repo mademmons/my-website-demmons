@@ -1,0 +1,12 @@
+/* start iPhone 8 Plus css values*/
+body.iphone8plus #jim-mobile { position:relative; top:0px; left:0px; width:581px; height:1048px; margin:0 auto; }
+body.iphone8plus #jim-case { background-image: url("../../../../../images/mobile/ios/ios15/iphone8plus@2x.png"); height:1048px; width:581px; background-size: 100% auto; }
+body.iphone8plus #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.iphone8plus #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.iphone8plus #jim-mobile.landscape { height:581px; width:1048px; }
+body.iphone8plus #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.iphone8plus #jim-case.landscape { transform:rotate(-90deg); transform-origin:50.6% 27.4% 0; }
+body.iphone8plus #jim-container.portrait { position: absolute; top: 155px; left: 86px; width: 414px; height: 736px; }
+body.iphone8plus #jim-container.landscape { position: absolute; top: 81px; left: 162px; width: 736px; height: 414px; }
