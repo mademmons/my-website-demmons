@@ -1,0 +1,24 @@
+/* 
+color used
+primary color (dark orange): #B86E0D
+secondary color (dark gray): #363636
+accent color (light gray): #606262
+accent color (light orange): # FAF1E6
+accent color (extra light gray): # EDEDED
+white: #FFFFFF
+black: #000000
+*/
+
+.button.view {
+    background-color: #FFFFFF; /*white*/
+    border-radius: 6px;
+    border: 4px solid #363636;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #B86E0D;
+  }
+
+
+
