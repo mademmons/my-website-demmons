@@ -9,15 +9,21 @@ white: #FFFFFF
 black: #000000
 */
 
-.button.view {
+img {
+    width:100%;
+}
+
+.button {
+    display: inline block;
     background-color: #FFFFFF; /*white*/
+    border: 4px solid #363636; /*gray*/
     border-radius: 6px;
-    border: 4px solid #363636;
+    padding: 8 px 50px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     font-size: 21px;
-    color: #B86E0D;
+    color: #B86E0D; /*orange*/
   }
 
 
