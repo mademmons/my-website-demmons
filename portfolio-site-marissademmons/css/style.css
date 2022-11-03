@@ -61,7 +61,20 @@ h2 {
     font-size: 21px;
     color: #B86E0D; /*orange*/
   }
-
+.email {
+  display: inline block;
+  background-color: #363636; /*gray*/
+  border: 4px solid #FFFFFF; /*white*/
+  border-radius: 6px;
+  padding: 8px 50px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  color: #FFFFFF; /*white*/
+}
+  
   /* Layout styling */
   .container {
     padding: 0  15px;
@@ -78,6 +91,7 @@ h2 {
 header {
     text-align: center;
     padding: 10px 0;
+    border-bottom: 3px solid #B86E0D;
 }
 
 nav > ul {
@@ -96,14 +110,22 @@ nav > ul > li > a {
     font-size: 24px;
     font-weight: 700;
     color: #606262;
-    border-width: 6px;
-    border-color: #B86E0D
+}
+
+nav > ul > li > a.active {
+    text-decoration: none;
+    padding: 0 8px;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
    
 }
 
 #hero {
     background-color: #FAF1E6;
     padding: 20px 0;
+    margin: 0px;
     display: inline-block;
     width: 100%;
 }
