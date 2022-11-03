@@ -9,6 +9,10 @@ white: #FFFFFF
 black: #000000
 */
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width:100%;
 }
