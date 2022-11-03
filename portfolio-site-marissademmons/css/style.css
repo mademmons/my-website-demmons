@@ -61,5 +61,10 @@ h1 {
     color: #B86E0D; /*orange*/
   }
 
+  /* Layout styling */
+  .container {
+    padding: 0  15px;
+}
+
 
 
