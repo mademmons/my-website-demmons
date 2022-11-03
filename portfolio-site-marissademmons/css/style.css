@@ -90,11 +90,15 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-    padding: 0 10px;
+    text-decoration: none;
+    padding: 0 8px;
     font-family: "Vollkorn", sans-serif;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 700;
-    color: #606262
+    color: #606262;
+    border-width: 6px;
+    border-color: #B86E0D
+   
 }
 
 #hero {
