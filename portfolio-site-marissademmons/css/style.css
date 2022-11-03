@@ -19,28 +19,29 @@ img {
 
 h1 {
     font-family: "Vollkorn", sans-serif;
-    font-size: 1.75em;
+    font-size: 28px;
     font-weight: 700;
     color: #363636;
     }
   
-    h2 {
-      font-family: "Vollkorn", sans-serif;
-      font-size: 1.75em;
-      font-weight: 700;
-      color: #363636;
+h2 {
+    font-family: "Vollkorn", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #363636;
     }
   
     h3 { 
       font-family: "Vollkorn", sans-serif;
-      font-size: 1.5em;
+      font-size: 24px;
       font-weight: 700;
+      color:#363636
     }
   
     
     p {
       font-family: "Poppins", sans-serif;
-      font-size: 1.31em;
+      font-size: 18px;
       font-weight: 400;
       color: #606262;
     }
@@ -86,4 +87,23 @@ nav > ul {
 
 nav > ul > li {
     display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 10px;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #606262
+}
+
+#hero {
+    background-color: #FAF1E6;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#footer {
+    background-color: #363636
 }
