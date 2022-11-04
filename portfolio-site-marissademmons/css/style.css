@@ -60,7 +60,37 @@ h2 {
     font-weight: 500;
     font-size: 21px;
     color: #B86E0D; /*orange*/
+    cursor: pointer;
   }
+
+  .button:hover {
+    display: inline block;
+    background-color: #FFFFFF; /*oragnge*/
+    border: 4px solid #B86E0D; /*orange*/
+    border-radius: 6px;
+    padding: 8px 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #B86E0D; /*white*/
+    cursor: pointer;
+  
+  .button:active {
+    display: inline block;
+    background-color: #B86E0D; /*oragnge*/
+    border: 4px solid #B86E0D; /*orange*/
+    border-radius: 6px;
+    padding: 8px 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF; /*white*/
+    cursor: pointer;
+  
 .email {
   display: inline block;
   background-color: #363636; /*gray*/
