@@ -191,5 +191,19 @@ nav > ul > li > a.active {
 }
 
 #footer {
-    background-color: #363636
+    background-color: #363636;
+}
+
+#skills {
+    background-color: #FAF1E6;
+}
+
+.linkedin {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.behance {
+    max-width: 40px;
+    max-height: 40px;
 }
