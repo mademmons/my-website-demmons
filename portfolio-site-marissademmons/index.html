@@ -65,21 +65,21 @@
   <main>
   <div>
     <div id="hero" class="container">
-    <h1>HELLO THERE!<br><span>My name is Marissa, and I am a UI Designer based in Valdosta, GA.</span></h1>
-       <p>I pinpoint solutions to help users navigate through digital products, by creating visually appealing and easy to navigate designs. Thank you for stopping by and taking a look at some of my recent works.</p>
+    <h1 class="container">HELLO THERE!<br><span>My name is Marissa, and I am a UI Designer based in Valdosta, GA.</span></h1>
+       <p class="container">I pinpoint solutions to help users navigate through digital products, by creating visually appealing and easy to navigate designs. Thank you for stopping by and taking a look at some of my recent works.</p>
      </div>
 
   <!-- For the work/projects section -->
-  <div id="recent-work">
-    <h2>RECENT WORK</h2>
+  <div id="recent-work" clas="container">
+    <h2 class="container">RECENT WORK</h2>
     <div class="row"><!-- open row that holds (2) columns for the project botnay -->
-      <div><!-- open first column (used for image) -->
+      <div class="container"><!-- open first column (used for image) -->
           <picture>
             <source srcest="img/botnay-mock-1x.jpg" media="(max-width:767px)">
             <img src="img/botnay-mock-2x.jpg" alt="My Image">
           </picture>
       </div>  <!-- end first column -->
-        <div><!-- open second column (used for text) -->
+        <div class="container"><!-- open second column (used for text) -->
           <h3>Botnay Plants</h3>
           <p><!-- open paragraph -->
             Online Shopping app made for users that are on the go.
@@ -89,14 +89,14 @@
            </div><!-- end second column -->
         </div><!-- end row that holds (2) columns for the project botnay -->
 
-        <div class="row"><!-- open row that holds (2) columns for the project healthpal -->
-          <div><!-- open first column (used for image) -->
+        <div class="row" class="container"><!-- open row that holds (2) columns for the project healthpal -->
+          <div class="container"><!-- open first column (used for image) -->
               <picture>
                 <source srcest="img/healthpal-mock-1x.jpg" media="(max-width:767px)">
                 <img src="img/healthpal-mock-2x.jpg" alt="My Image">
               </picture>
           </div>  <!-- end first column -->
-            <div><!-- open second column (used for text) -->
+            <div class="container"><!-- open second column (used for text) -->
               <h3>HealthPal</h3>
               <p><!-- open paragraph -->
                 App that helps users keep track of medicine and health appointments.
@@ -105,14 +105,14 @@
             </div><!-- end second column -->
             </div><!-- end row that holds (2) columns for the project healthpal-->
 
-            <div class="row"><!-- open row that holds (2) columns for the project Forkify -->
-              <div><!-- open first column (used for image) -->
+            <div class="row" class=conatainer><!-- open row that holds (2) columns for the project Forkify -->
+              <div class="container"><!-- open first column (used for image) -->
                   <picture>
                     <source srcest="img/forkify-mock-1x.jpg" media="(max-width:767px)">
                     <img src="img/forkify-mock-2x.jpg" alt="My Image">
                   </picture>
               </div>  <!-- end first column -->
-                <div><!-- open second column (used for text) -->
+                <div class="container"><!-- open second column (used for text) -->
                   <h3>Forkify</h3>
                   <p><!-- open paragraph -->
                     Helps users find recipes geared towards their dietary needs and preferences.
@@ -125,21 +125,22 @@
         <!-- For the footer section -->
         <footer>
           <div id="footer", class="container"><!-- open section for footer -->
-            <h3>GET IN TOUCH</h3>
-            <p><!-- open paragraph -->
+            <h4>GET IN TOUCH</h4>
+            <p1><!-- open paragraph -->
               If you are interested in working with me or have any questions please reach out.
-              </p><!-- close paragraph -->
-              <div><!-- email button -->
-                <a href ="marissademmons@gmail.com" class="email">Email me</a>
-                </div><!-- close email button -->
-                <div><!-- social media layout placeholders -->
-                  <a href="LINKEDIN-URL" target="_blank">
-                    <img src="img/icon/linkedin.svg">
-                    </a>
-                    <a href="Behance" target="_blank">
-                      <img src="img/icon/behance.svg">
-                      </a>
-                      </div><!-- close social media -->
+              </p1><!-- close paragraph -->
+              <social>
+                <ul>
+                  
+                  <li><a href="LINKEDIN-URL" target="_blank"></a></li>
+                  <img src="img/icon/linkedin.svg" class="linkedin">
+                  </a>
+                  <li><a href ="marissademmons@gmail.com" class="email">Email me</a></li>
+                  <li><a href="Behance" target="_blank"></a></li>
+                  <img src="img/icon/behance.svg" class="behance">
+                  </a>
+                </ul>
+              </social>
           </div><!-- close footer section -->
         </footer>
 </body>
