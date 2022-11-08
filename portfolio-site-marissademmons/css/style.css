@@ -45,9 +45,8 @@ h2 {
         font-weight: 700;
         color:#FFFFFF; 
         padding-top: 16px    
-        
       }
-    
+      
     p {
       font-family: "Poppins", sans-serif;
       font-size: 18px;
@@ -76,7 +75,6 @@ h2 {
     color: #B86E0D; /*orange*/
     cursor: pointer;
   }
-
   .button:hover {
     display: inline block;
     background-color: #FFFFFF; /*oragnge*/
@@ -91,7 +89,6 @@ h2 {
     color: #B86E0D; /*white*/
     cursor: pointer;
   }
-  
   .button:active {
     display: inline block;
     background-color: #B86E0D; /*oragnge*/
@@ -122,8 +119,7 @@ h2 {
   align-items:center;
   
   
-}
-  
+}  
 .email:hover {
     display: inline-block;
     background-color: #363636; /*gray*/
@@ -137,7 +133,6 @@ h2 {
     font-size: 21px;
     color: #B86E0D; /*Orange*/
   }
-  
   .email:active {
     display: inline-block;
     background-color: #B86E0D; /*oragnge*/
@@ -175,11 +170,9 @@ nav > ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav > ul > li {
     display: inline-block;
 }
-
 nav > ul > li > a {
     text-decoration: none;
     padding: 0 8px;
@@ -188,7 +181,6 @@ nav > ul > li > a {
     font-weight: 700;
     color: #606262;
 }
-
 nav > ul > li > a.active {
     text-decoration: none;
     padding: 0 8px;
@@ -207,6 +199,14 @@ nav > ul > li > a.active {
     width: 100%;
 }
 
+#skills {
+    background-color: #FAF1E6;
+    padding: 5px 0;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
 #footer {
     background-color: #363636;
 }
@@ -219,20 +219,28 @@ nav > ul > li > a.active {
     max-width: 48px;
     max-height: 48px   
 }
-
 .behance {
     max-width: 48px;
     max-height: 48px;
 }
+.marissa-demmons {
+    position: absolute;
+    bottom: 75px;
+    left: 15px;
+    text-align: left;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color:#B86E0D;  
 
 social > ul {
     list-style-type: none;
     padding: 3px;
 }
-
 social > ul > li {
     display: inline-block;
 }
+
 
 /* ==============================
 Medium devices (640px and larger)
