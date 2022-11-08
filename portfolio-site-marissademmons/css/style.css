@@ -43,8 +43,8 @@ h2 {
         font-family: "Vollkorn", sans-serif;
         font-size: 24px;
         font-weight: 700;
-        color:#FFFFFF;
-        padding: 0px 0px 0px 0px;
+        color:#FFFFFF; 
+        padding-top: 16px    
         
       }
     
@@ -62,8 +62,6 @@ h2 {
         color: #FFFFFF;
       }
    
-
-
   .button {
     display: inline block;
     background-color: #FFFFFF; /*white*/
@@ -110,25 +108,28 @@ h2 {
   }
   
 .email {
-  display: inline block;
+  display: inline-block;
   background-color: #363636; /*gray*/
   border: 4px solid #FFFFFF; /*white*/
   border-radius: 6px;
-  padding: 5px 30px;
+  padding: 5px 32px;
   text-decoration: none;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 21px;
   color: #FFFFFF; /*white*/
+  align-items:center;
+  
+  
 }
   
 .email:hover {
-    display: inline block;
+    display: inline-block;
     background-color: #363636; /*gray*/
     border: 4px solid #B86E0D; /*orange*/
     border-radius: 6px;
-    padding: 5px 30px;
+    padding: 5px 32px;
     text-decoration: none;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -142,7 +143,7 @@ h2 {
     background-color: #B86E0D; /*oragnge*/
     border: 4px solid #B86E0D; /*orange*/
     border-radius: 6px;
-    padding: 5px 30px;
+    padding: 5px 32px;
     text-decoration: none;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -216,19 +217,17 @@ nav > ul > li > a.active {
 
 .linkedin {
     max-width: 48px;
-    max-height: 48px;
-   
+    max-height: 48px   
 }
 
 .behance {
     max-width: 48px;
     max-height: 48px;
-    
 }
 
 social > ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 3px;
 }
 
 social > ul > li {
