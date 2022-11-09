@@ -55,11 +55,11 @@ h2 {
     }
 
     p1 {
+        text-align: center;
         font-family: "Poppins", sans-serif;
         font-size: 18px;
         font-weight: 400;
         color: #FFFFFF;
-        text-align: center;
       }
    
   .button {
@@ -117,6 +117,7 @@ h2 {
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF; /*white*/
+  cursor: pointer;
   align-items:center;
 }  
 .email:hover {
@@ -131,6 +132,8 @@ h2 {
     font-weight: 500;
     font-size: 21px;
     color: #B86E0D; /*Orange*/
+    cursor: pointer;
+    align-items: center;
   }
   .email:active {
     display: inline-block;
@@ -145,6 +148,7 @@ h2 {
     font-size: 21px;
     color: #FFFFFF; /*white*/
     cursor: pointer;
+    align-items: center; 
   }
 
   .social.button {
@@ -157,24 +161,35 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 21px;
     color: #FFFFFF; /*white*/
+    cursor: pointer;
     align-items:center; 
-    max-width: 45px;
+    min-width: 50px;
+    min-height: 45px;
+    max-width: 50px;
     max-height: 45px;
+    margin: 6px;
   }
   .social.button:hover {
     display: inline-block;
     background-color: #363636; /*gray*/
     border: 4px solid #B86E0D; /*orange*/
     border-radius: 6px;
-    padding: 6px 10px;
+    padding: 6px 6px 6px 6px;
     text-decoration: none;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 18px;
     color: #B86E0D; /*Orange*/
+    cursor: pointer;
+    align-items:center; 
+    min-width: 50px;
+    min-height: 45px;
+    max-width: 50px;
+    max-height: 45px;
+    margin: 6px;
   }
   .social.button:active {
     display: inline-block;
@@ -186,13 +201,19 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 18px;
     color: #FFFFFF; /*white*/
     cursor: pointer;
+    align-items:center; 
+    min-width: 50px;
+    min-height: 45px;
+    max-width: 50px;
+    max-height: 45px;
+    margin: 6px;
   }
 
   /* Layout styling */
-  .container {
+.container {
     padding: 0  15px;
 }
 
@@ -235,7 +256,10 @@ nav > ul > li > a.active {
 
 social > ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 social > ul > li {
     display: inline-block;
