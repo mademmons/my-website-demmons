@@ -21,7 +21,8 @@ h1 {
     font-family: "Vollkorn", sans-serif;
     font-size: 28px;
     font-weight: 700;
-    color: #363636;
+    color: #B86E0D;
+    margin: 0;
     }
   
 h2 {
@@ -217,7 +218,7 @@ h2 {
     padding: 0  15px;
 }
 
-#recent-work .row { 
+#recent-work.row { 
     margin: 25px 0; /* 25px top and botton, 0 left and right */
 }
 
@@ -226,13 +227,17 @@ h2 {
 }
 
 header {
+    background-color: #FFFFFF;
     padding: 10px 0;
     border-bottom: 3px solid #B86E0D;
+    position: fixed;
+    Width: 100%
 }
 
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: none; 
 }
 nav > ul > li {
     display: inline-block;
@@ -271,10 +276,14 @@ social > ul > li > a {
 
 #hero {
     background-color: #FAF1E6;
-    padding: 20px 0;
+    padding: 12px 0;
     margin: 0px;
     display: inline-block;
     width: 100%;
+}
+#hero span{
+    text-align: center;
+    display: block;
 }
 
 #skills {
@@ -302,6 +311,14 @@ social > ul > li > a {
     font-size: 48px;
     font-weight: 700;
     color:#B86E0D;  
+}
+
+.col-md-6 {
+     width: 50%;
+ }   
+ [class*="col"] {
+    float: left;
+ }
 
 /* ==============================
 Medium devices (640px and larger)
