@@ -118,8 +118,6 @@ h2 {
   font-size: 24px;
   color: #FFFFFF; /*white*/
   align-items:center;
-  
-  
 }  
 .email:hover {
     display: inline-block;
@@ -207,7 +205,7 @@ h2 {
 }
 
 header {
-    text-align: center;
+    text-align: unset;
     padding: 10px 0;
     border-bottom: 3px solid #B86E0D;
 }
@@ -285,7 +283,16 @@ social > ul > li > a {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) { 
+    header {
+        text-align:unset;
+        padding: 20px 0 13px;
+}
+    nav{
+        width:auto;
+        float:right;
+        margin-top:4px;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -300,5 +307,5 @@ X-large devices (1440px or larger)
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) 
+@media only screen and (min-width: 1920px) {
 }
