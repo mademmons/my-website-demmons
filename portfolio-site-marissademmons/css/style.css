@@ -216,7 +216,7 @@ h2 {
 
   /* Layout styling */
 .container {
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 #recent-work.row { 
@@ -242,11 +242,11 @@ main {
 }
 
 header {
+    width: 100%;
     text-align: unset;
     background-color:white; 
     border-bottom: 3px solid #B86E0D;
     position: fixed;
-    Width: 100%
 }
 
 nav > ul {
@@ -292,12 +292,12 @@ social > ul > li > a {
 #hero {
     text-align: center;
     background-color: #FAF1E6;
-    padding: 12px 0;
+    padding: 0;
     margin: 0px;
     display: inline-block;
     width: 100%;
 }
-#hero span{
+#hero span {
     display: block;
 }
 
@@ -348,7 +348,6 @@ Medium devices (640px and larger)
     nav {
         width: auto;
         float: right;
-        margin-top: 4px;
     }
 }
 /* ==============================
