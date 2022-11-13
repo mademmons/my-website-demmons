@@ -11,6 +11,7 @@ black: #000000
 
 * {
     box-sizing: border-box;
+    padding: 10px;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 
 h1 {
     font-family: "Vollkorn", sans-serif;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 700;
     color: #B86E0D;
     margin: 0;
@@ -28,7 +29,7 @@ h1 {
   
 h2 {
     font-family: "Vollkorn", sans-serif;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 700;
     color: #363636;
     margin-top: 12px;
@@ -37,7 +38,7 @@ h2 {
   
     h3 { 
       font-family: "Vollkorn", sans-serif;
-      font-size: 24px;
+      font-size: 1.5em;
       font-weight: 700;
       color:#363636
     }
@@ -45,14 +46,14 @@ h2 {
     h4 { 
         text-align: center;
         font-family: "Vollkorn", sans-serif;
-        font-size: 24px;
+        font-size: 1.5em;
         font-weight: 700;
         color:#FFFFFF;    
       }
       
     p {
       font-family: "Poppins", sans-serif;
-      font-size: 18px;
+      font-size: 1.125em;
       font-weight: 400;
       color: #606262;
     }
@@ -60,7 +61,7 @@ h2 {
     p1 {
         text-align: center;
         font-family: "Poppins", sans-serif;
-        font-size: 18px;
+        font-size: 1.125em;
         font-weight: 400;
         color: #FFFFFF;
       }
@@ -239,6 +240,7 @@ main {
 }
 
 header {
+    text-align: unset;
     background-color:white; 
     border-bottom: 3px solid #B86E0D;
     position: fixed;
@@ -286,6 +288,7 @@ social > ul > li > a {
 }
 
 #hero {
+    text-align: center;
     background-color: #FAF1E6;
     padding: 12px 0;
     margin: 0px;
@@ -293,7 +296,6 @@ social > ul > li > a {
     width: 100%;
 }
 #hero span{
-    text-align: center;
     display: block;
 }
 
@@ -340,7 +342,7 @@ Medium devices (640px and larger)
     header {
         text-align: unset;
         padding: 20px 0 13px;
-}
+    }
     nav {
         width: auto;
         float: right;
