@@ -74,7 +74,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3125em;
     color: #B86E0D; /*orange*/
     cursor: pointer;
   }
@@ -88,7 +88,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #B86E0D; /*white*/
     cursor: pointer;
   }
@@ -102,7 +102,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #FFFFFF; /*white*/
     cursor: pointer;
   }
@@ -117,7 +117,7 @@ h2 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #FFFFFF; /*white*/
   cursor: pointer;
   align-items:center;
@@ -132,7 +132,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3125em;
     color: #B86E0D; /*Orange*/
     cursor: pointer;
     align-items: center;
@@ -147,7 +147,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3125em;
     color: #FFFFFF; /*white*/
     cursor: pointer;
     align-items: center; 
@@ -163,7 +163,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3125em;
     color: #FFFFFF; /*white*/
     cursor: pointer;
     align-items:center; 
@@ -183,7 +183,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #B86E0D; /*Orange*/
     cursor: pointer;
     align-items:center; 
@@ -203,7 +203,7 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #FFFFFF; /*white*/
     cursor: pointer;
     align-items:center; 
@@ -216,7 +216,7 @@ h2 {
 
   /* Layout styling */
 .container {
-    padding: 0  15px;
+    padding: 0 15px 0 15px;
 }
 
 #recent-work.row { 
@@ -238,7 +238,7 @@ h2 {
 }
 
 main {
-    padding-top: 200px;
+    padding-top: 225px;
 }
 
 header {
@@ -261,7 +261,7 @@ nav > ul > li > a {
     text-decoration: none;
     padding: 0 8px;
     font-family: "Vollkorn", sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
     color: #606262;
 }
@@ -269,7 +269,7 @@ nav > ul > li > a.active {
     text-decoration: none;
     padding: 0 8px;
     font-family: "Vollkorn", sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
     color: #B86E0D; 
 }
@@ -325,7 +325,7 @@ social > ul > li > a {
     left: 15px;
     text-align: left;
     font-family: "Vollkorn", sans-serif;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 700;
     color:#B86E0D;  
 }
