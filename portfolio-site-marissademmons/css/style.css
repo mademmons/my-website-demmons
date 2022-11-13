@@ -24,7 +24,6 @@ h1 {
     font-size: 1.75em;
     font-weight: 700;
     color: #B86E0D;
-    margin: 0;
     }
   
 h2 {
@@ -33,7 +32,6 @@ h2 {
     font-weight: 700;
     color: #363636;
     margin-top: 12px;
-    margin-bottom: 0px;
     }
   
     h3 { 
@@ -230,6 +228,10 @@ h2 {
     clear: both;
     display: table;
   }
+
+#about-page h3 {
+  margin-top: 0;
+}
 
 .logo {
     max-width: 250px;
