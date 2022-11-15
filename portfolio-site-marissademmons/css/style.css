@@ -307,11 +307,6 @@ social > ul > li > a {
     display: inline-block;
 }
 
-#hero h1 {
-  margin: 0;
-  padding: .067 em 0;
-}
-
 #recent-work h2{
   margin-bottom: 0;
   text-align: center; 
