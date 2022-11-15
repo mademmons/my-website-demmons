@@ -226,7 +226,7 @@ h2 {
     margin: 25px 0; /* 25px top and botton, 0 left and right */
 }
 
-.row::after {
+.row:after {
     content: "";
     clear: both;
     display: table;
@@ -238,6 +238,7 @@ h2 {
 
 .logo {
     max-width: 250px;
+    margin: 10px;
 }
 
 main {
@@ -313,17 +314,18 @@ social > ul > li > a {
 
 #recent-work h2{
   margin-bottom: 0;
+  text-align: center; 
 }
 
 #skills {
     background-color: #FAF1E6;
-    padding: 5px 0;
     margin: 0px;
     display: inline-block;
     width: 100%;
 }
 
 #footer {
+   text-align: center;
     background-color: #363636;
     display: inline-block;
     width: 100%;
@@ -342,9 +344,16 @@ social > ul > li > a {
 
 .col-md-6 {
      width: 50%;
- }   
- [class*="col"] {
+ } 
+ .col-lg-7{
+    width: 58.33%;
+ }  
+ .col-lg-5{
+    width: 41.66%;
+ }
+ [class*="col-"] {
     float: left;
+    padding: 10px;
  }
 
 /* ==============================
@@ -364,14 +373,38 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+}
+  nav {
+    width: auto;
+    float: right;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+}
+nav {
+    width: auto;
+    float: right;
+  } 
 }
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+}
+nav {
+    width: auto;
+    float: right;
+  }
 }
