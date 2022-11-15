@@ -218,8 +218,8 @@ h2 {
   /* Layout styling */
 .container {
    max-width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 12px;
+   margin-right: 12px;
 }
 
 #recent-work.row { 
@@ -300,9 +300,19 @@ social > ul > li > a {
     margin: 0px;
     display: inline-block;
     width: 100%;
+    margin-bottom: 12px;
 }
 #hero span {
-    display: block;
+    display: inline-block;
+}
+
+#hero h1 {
+  margin: 0;
+  padding: .067 em 0;
+}
+
+#recent-work h2{
+  margin-bottom: 0;
 }
 
 #skills {
