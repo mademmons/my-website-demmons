@@ -11,12 +11,13 @@ black: #000000
 
 * {
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0px 10px 0 px 10px;
 }
 
 img {
     width:100%;
-    margin-top: 16px
+    margin-top: 16px;
+    max-width: 450px;
 }
 
 h1 {
@@ -216,7 +217,9 @@ h2 {
 
   /* Layout styling */
 .container {
-    padding: 0 15px;
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #recent-work.row { 
@@ -247,11 +250,12 @@ header {
     background-color:white; 
     border-bottom: 3px solid #B86E0D;
     position: fixed;
+    margin-top: 0;
 }
 
 nav > ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     margin: none; 
 }
 nav > ul > li {
@@ -313,10 +317,6 @@ social > ul > li > a {
     background-color: #363636;
     display: inline-block;
     width: 100%;
-}
-
-#skills {
-    background-color: #FAF1E6;
 }
 
 .marissa-demmons {
