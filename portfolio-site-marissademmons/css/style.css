@@ -11,7 +11,6 @@ black: #000000
 
 * {
     box-sizing: border-box;
-    padding: 0px 10px 0 px 10px;
 }
 
 h1 {
@@ -209,12 +208,8 @@ h2 {
     margin: 6px;
   }
 
-  /* Layout styling */
-.container {
-   max-width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
-   overflow: auto;
+.img {
+  width: 100%;
 }
 
 .profile {
@@ -249,19 +244,18 @@ color:#B86E0D;
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 115px;
     margin: 10px;
     float: left;
 }
 
 main {
-    padding-top: 145px;
+    padding-top: 180px;
 }
 
 header {
     display: inline-block;
     width: 100%;
-    text-align: unset;
     background-color:white; 
     border-bottom: 3px solid #B86E0D;
     position: fixed;
@@ -271,11 +265,10 @@ header {
 nav > ul {
     list-style-type: none;
     padding: 10px;
-    margin: none; 
     float: right;
 }
 nav > ul > li {
-    display: inline;
+    display: inline-block;
 }
 nav > ul > li > a {
     text-decoration: none;
@@ -323,7 +316,7 @@ social > ul > li > a {
 }
 
 #recent-work h2{
-  margin-bottom: 0;
+  margin-bottom: 12px;
   text-align: center; 
 }
 
@@ -341,6 +334,12 @@ social > ul > li > a {
     width: 100%;
 }
 
+ /* Layout styling */
+ .container {
+  max-width: 1200px;
+  padding:0 15px;
+}
+
 .col-md-6 {
      width: 50%;
  } 
@@ -352,7 +351,6 @@ social > ul > li > a {
  }
  [class*="col-"] {
     float: left;
-    padding: 10px;
  }
 
 /* ==============================
