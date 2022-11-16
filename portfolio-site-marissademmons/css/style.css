@@ -14,12 +14,6 @@ black: #000000
     padding: 0px 10px 0 px 10px;
 }
 
-img {
-    width:100%;
-    margin-top: 16px;
-    max-width: 450px;
-}
-
 h1 {
     font-family: "Vollkorn", sans-serif;
     font-size: 1.75em;
@@ -218,8 +212,26 @@ h2 {
   /* Layout styling */
 .container {
    max-width: 1200px;
-   margin-left: 12px;
-   margin-right: 12px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: auto;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width: 450px; 
+}
+.marissa-demmons {
+position: flex;
+text-align: left;
+margin-bottom: 16px;
+font-family: "Vollkorn", sans-serif;
+font-size: 3em;
+font-weight: 700;
+color:#B86E0D;  
 }
 
 #recent-work.row { 
@@ -239,13 +251,15 @@ h2 {
 .logo {
     max-width: 250px;
     margin: 10px;
+    float: left;
 }
 
 main {
-    padding-top: 225px;
+    padding-top: 145px;
 }
 
 header {
+    display: inline-block;
     width: 100%;
     text-align: unset;
     background-color:white; 
@@ -258,9 +272,10 @@ nav > ul {
     list-style-type: none;
     padding: 10px;
     margin: none; 
+    float: right;
 }
 nav > ul > li {
-    display: inline-block;
+    display: inline;
 }
 nav > ul > li > a {
     text-decoration: none;
@@ -324,17 +339,6 @@ social > ul > li > a {
     background-color: #363636;
     display: inline-block;
     width: 100%;
-}
-
-.marissa-demmons {
-    position: flex;
-    bottom: 75px;
-    left: 15px;
-    text-align: left;
-    font-family: "Vollkorn", sans-serif;
-    font-size: 3em;
-    font-weight: 700;
-    color:#B86E0D;  
 }
 
 .col-md-6 {
