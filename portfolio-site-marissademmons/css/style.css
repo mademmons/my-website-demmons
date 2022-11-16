@@ -13,6 +13,10 @@ black: #000000
     box-sizing: border-box;
 }
 
+.img {
+  width: 100%;
+}
+
 h1 {
     font-family: "Vollkorn", sans-serif;
     font-size: 1.75em;
@@ -208,10 +212,6 @@ h2 {
     margin: 6px;
   }
 
-.img {
-  width: 100%;
-}
-
 .profile {
   display: block;
   margin-left: auto;
@@ -244,7 +244,7 @@ color:#B86E0D;
 }
 
 .logo {
-    max-width: 115px;
+    max-width:  85px;
     margin: 10px;
     float: left;
 }
@@ -262,10 +262,13 @@ header {
     margin-top: 0;
 }
 
+nav {
+  width: auto;
+  float: right;
+}
 nav > ul {
     list-style-type: none;
     padding: 10px;
-    float: right;
 }
 nav > ul > li {
     display: inline-block;
@@ -337,20 +340,23 @@ social > ul > li > a {
  /* Layout styling */
  .container {
   max-width: 1200px;
-  padding:0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 
 .col-md-6 {
      width: 50%;
  } 
  .col-lg-7{
-    width: 58.33%;
+    width:  60%;
  }  
  .col-lg-5{
-    width: 41.66%;
+    width: 40%;
  }
  [class*="col-"] {
     float: left;
+    padding: 0 10px;
  }
 
 /* ==============================
