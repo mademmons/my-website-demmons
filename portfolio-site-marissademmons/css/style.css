@@ -17,6 +17,12 @@ black: #000000
   width: 100%;
 }
 
+.svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
     font-family: "Vollkorn", sans-serif;
     font-size: 1.75em;
@@ -343,6 +349,25 @@ social > ul > li > a {
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
+}
+
+@keyframes color-changes {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 .col-md-6 {
