@@ -274,7 +274,7 @@ nav {
 }
 nav > ul {
     list-style-type: none;
-    padding: 10px;
+    margin-top: 64px;
 }
 nav > ul > li {
     display: inline-block;
