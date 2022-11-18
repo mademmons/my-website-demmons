@@ -15,9 +15,7 @@ black: #000000
 
 .img {
   width: 100%;
-  border-style: none;
 }
-
 .picture {
   width:100%
 }
@@ -260,7 +258,7 @@ color:#B86E0D;
 }
 
 main {
-    padding-top: 180px;
+    padding-top: 140px;
 }
 
 header {
@@ -318,11 +316,15 @@ social > ul > li > a {
 #hero {
     text-align: center;
     background-color: #FAF1E6;
-    padding: 0;
+    background-size: contain;
+    padding: 0px;
     margin: 0px;
     display: inline-block;
     width: 100%;
     margin-bottom: 12px;
+}
+#hero h1{
+  padding: 10px;
 }
 #hero span {
     display: inline-block;
