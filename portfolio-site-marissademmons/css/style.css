@@ -15,8 +15,12 @@ black: #000000
 
 .img {
   width: 100%;
+  border-style: none;
 }
 
+.picture {
+  width:100%
+}
 .svg {
   width: 100%;
   max-width: 100%;
